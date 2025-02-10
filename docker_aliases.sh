@@ -10,4 +10,3 @@ dpa() {
 alias dps="docker ps"
 alias dsp="docker system prune"
 alias dvp="docker volume prune"
-
