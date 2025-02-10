@@ -3,3 +3,5 @@
 alias dfh="df -h"
 
 alias ll="ls -lah"
+
+alias ra="ranger"
