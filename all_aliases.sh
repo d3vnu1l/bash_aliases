@@ -13,8 +13,6 @@ for alias in "${alias_files[@]}"; do source "$alias"; done
 
 # Register alias help function.
 aliases() {
-    # local opts="ah"
-    # local long_opts="all,help"
     _print_classes() {
         for alias in "${alias_files[@]}"; do
             alias_basename="$(basename "$alias")"
@@ -22,7 +20,6 @@ aliases() {
             echo " '$alias_class'"
         done
     }
-
     _help() {
         echo "Usage: 'alias <class>', where <class> is one of:"
         _print_classes
