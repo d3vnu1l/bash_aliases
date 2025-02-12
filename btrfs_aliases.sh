@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
-alias btfi="btrfs filesystem usage -h"
-alias btls="btrfs subvolume list"
-alias bts="btrfs device stats"
+alias btds="btrfs device stats"
+alias btfu="btrfs filesystem usage -h"
+alias btsc="btrfs scrub"
+alias btsl="btrfs subvolume list"

@@ -39,7 +39,7 @@ aliases() {
             _print_classes
         else
             echo "$class aliases:"
-            cat "$class_path"
+            sed '1d; /^$/d' "$class_path"
         fi
     fi
 }
