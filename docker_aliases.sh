@@ -10,3 +10,8 @@ dpa() {
 alias dps="docker ps"
 alias dsp="docker system prune"
 alias dvp="docker volume prune"
+alias da="docker attach"
+alias de="docker exec"
+alias dei="docker exec -it"
+alias drz="docker run"
+alias dri="docker run -it"
