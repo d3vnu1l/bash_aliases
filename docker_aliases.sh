@@ -18,3 +18,4 @@ deib() { docker exec -it "$@" bash; }
 alias dr="docker run"
 alias dri="docker run -it"
 drib() { docker run -it "$@" bash; }
+alias ds="docker stop"
