@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 alias dcrm="docker container rm"
-alias dils="docker image ls"
+alias dils="docker image ls | sort"
 alias dirm="docker image rm"
 dpa() {
   echo "Docker pull all."
