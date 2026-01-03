@@ -5,7 +5,7 @@ alias dils="docker image ls | sort"
 alias dirm="docker image rm"
 dpa() {
   echo "Docker pull all."
-  for image in $(docker images --format "{{.Repository}}"); do docker pull "$image"; done
+  for image in $(docker images --format "{{.Repository}}"); do docker pull "$image" && sleep 1; done
 }
 alias dp="docker ps"
 alias dpg="docker ps | grep"
